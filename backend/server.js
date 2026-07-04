@@ -36,6 +36,6 @@ app.get('/', (req, res) => {
   res.send('<h1>Hello world zello app is on uptodate and ready to use</h1>');
 });
 
-server.listen(7000, () => {
-  console.log('server running at http://localhost:7000');
+server.listen(5500, () => {
+  console.log('server running at http://localhost:5500');
 });
