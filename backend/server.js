@@ -33,7 +33,7 @@ io.on('connection', (socket) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('<h1>Hello world zello app</h1>');
+  res.send('<h1>Hello world zello</h1>');
 });
 
 server.listen(7000, () => {
